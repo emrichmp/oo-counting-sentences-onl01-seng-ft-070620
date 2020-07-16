@@ -19,6 +19,6 @@ class String
     array.delete_if do |sentence|
       sentence.empty?
     end
-    array.length?
+    array.length
   end
 end
